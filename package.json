@@ -4,13 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev":"nodemon consumer.js"  
+    "consumer":"nodemon consumer.js",
+    "producer":"nodemon producer.js"  
+    
   },
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "kafka-node": "^4.1.3"
+    "body-parser": "1.19.0",
+    "kafka-node": "4.1.3"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "nodemon": "1.19.1"
   }
 }
