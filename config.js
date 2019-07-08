@@ -1,7 +1,7 @@
 module.exports = {
-    kafka_topic: 'test2',
+    kafka_topic: 'test',
     consumerOptions : {
-        kafkaHost: '127.0.0.1:9092',
+        kafkaHost: '127.0.0.1:29092',
         groupId: 'ExampleTestGroup',
         sessionTimeout: 15000,
         protocol: ['roundrobin'],
